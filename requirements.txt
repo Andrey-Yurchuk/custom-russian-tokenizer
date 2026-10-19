@@ -1,0 +1,19 @@
+# Зависимости проекта (Python 3.12)
+
+# Загрузка корпуса с Hugging Face Hub
+datasets==5.1.0
+
+# Обучение собственного токенизатора
+tokenizers==0.23.3
+
+# Готовые токенизаторы RuBERT (AutoTokenizer), PyTorch не нужен
+transformers==5.20.1
+
+# Таблицы сравнения
+pandas==3.0.6
+
+# Графики
+matplotlib==3.11.2
+
+# Среда для запуска ноутбука
+jupyterlab==4.6.4
